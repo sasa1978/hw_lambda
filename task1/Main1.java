@@ -2,7 +2,7 @@ public class Main1 {
     public static void main(String[] args) {
         Calculator calc = Calculator.instance.get();
 
-        // Складываем 1 + 2 = 0
+        // Складываем 1 + 2 = 3
         int a = calc.plus.apply(1, 2);
         // Вычитаем 1 - 1 = 0
         int b = calc.minus.apply(1,1);
